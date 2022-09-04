@@ -49,7 +49,7 @@ Index(['gvkey', 'datadate', 'sic_2', 'lagdate', 'lagRet2', 'lagVOL2',
       dtype='object')
 ```
 
-We want to sort the data in order by date and exclude penny stocks. We also create vectors for year and month for the analysis and set the stock key and datadate as the index.
+We want to sort the data by date and exclude penny stocks. We also create vectors for year and month for the analysis and set the stock key and datadate as the index.
 
 ```python
 dectreedata.sort_values(by=['datadate'], inplace=True)
